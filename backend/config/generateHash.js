@@ -2,12 +2,12 @@
 import crypto from 'crypto';
 
 // Step 1: Enter your test values here
-const merchant_id = '1230311';
+const merchant_id = '';
 const order_id = 'Order12345';
 const payhere_amount = '1000.00'; // Must be formatted to 2 decimal places
 const payhere_currency = 'LKR';
 const status_code = '2'; // 2 = success
-const merchant_secret = 'NTc0NDAyOTM0MTI1NTAzNDcxNTI2MDEzMzM5NDM0ODE4MjA0OTA='; // Replace with your actual secret
+const merchant_secret = ''; // Replace with your actual secret
 
 console.log('Input Values:');
 console.log({
